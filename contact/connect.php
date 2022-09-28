@@ -1,5 +1,5 @@
 <?php
-    $conn= mysqli_connect("localhost","root","","mstic_userdb");
+    $conn= mysqli_connect("mysql-gaga.alwaysdata.net","gaga","lovelinam","gaga_mstic");
     if($conn){
         echo "Connect to db";
     } else{

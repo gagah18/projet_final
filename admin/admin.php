@@ -20,13 +20,14 @@
         <th>Niveau D'étude</th>
         <th>Matiere</th>
         <th>Personnes</th>
+        <th>Date</th>
         </tr>
     <?php 
 
-   $servername = "localhost";
-   $username = "root";
-   $password = "";
-   $dbname = "mstic_userdb";
+   $servername = "mysql-gaga.alwaysdata.net";
+   $username = "gaga";
+   $password = "lovelinam";
+   $dbname = "gaga_mstic";
    
    // Create connection
    $conn = new mysqli($servername, $username, $password, $dbname);
@@ -53,6 +54,7 @@
             <td><?=$row["niveau_etude"]; ?></td>
             <td><?=$row["matiere"]; ?></td>
             <td><?=$row["person"]; ?></td>
+            <td><?=$row["datecreation"]; ?></td>
         </tr>
         
         
